@@ -12,7 +12,7 @@
     </center>
         {% for post in posts %}
             <div>
-                <h2>Title: <a href="http://127.0.0.1:8000/admin/blog/post/{{post.id}}/change/"> {{ post.title }}</a></h2>
+                <h2>Title: <a href="http://dyno.pythonanywhere.com/admin/blog/post/{{post.id}}/change/"> {{ post.title }}</a></h2>
                 <p>{{ post.text|linebreaksbr }}</p>
                 <p>Data de publicacão: {{ post.published_date }}</p>
             </div>
